@@ -1,0 +1,59 @@
+➜  todo-api git:(master) ✗ git add get*
+➜  todo-api git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   app.py
+	new file:   app2.py
+	new file:   app3.py
+	new file:   app4.py
+	new file:   app5.py
+	new file:   app6.py
+	new file:   app7.py
+	new file:   getData1.py
+	new file:   getData2.py
+	new file:   getData3.py
+	new file:   getData4.py
+	new file:   getuuid.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	..json.txt
+	.DS_Store
+	.idea/
+	BMS-lab.txt
+	flask/
+
+➜  todo-api git:(master) ✗ git commit -m "update all the app example code"
+
+[master 400aa65] update all the app example code
+ 12 files changed, 703 insertions(+)
+ create mode 100755 app.py
+ create mode 100755 app2.py
+ create mode 100755 app3.py
+ create mode 100755 app4.py
+ create mode 100755 app5.py
+ create mode 100755 app6.py
+ create mode 100755 app7.py
+ create mode 100644 getData1.py
+ create mode 100644 getData2.py
+ create mode 100644 getData3.py
+ create mode 100644 getData4.py
+ create mode 100644 getuuid.py
+
+➜  todo-api git:(master) ✗ git push origin master
+
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 4.50 KiB | 2.25 MiB/s, done.
+Total 14 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), done.
+To github.com:graywen24/flask_api.git
+   2493756..400aa65  master -> master
+
